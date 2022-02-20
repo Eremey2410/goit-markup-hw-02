@@ -50,6 +50,7 @@ footer {
 .button:hover,
 .button:focus {
   background-color: var(--accent-color);
+  color: #ffffff;
 }
 .comand {
   background-color: #f5f4fa;
