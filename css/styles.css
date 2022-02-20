@@ -1,3 +1,59 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
 body {
-  background-color: brown;
+  color: var(--primary-text-color);
+  background-color: #e5e5e5;
+}
+.logo {
+  color: var(--accent-color);
+}
+.logotype:hover,
+.logotype:focus {
+  color: var(--accent-color);
+}
+.link-item {
+  color: var(--title-text-color);
+}
+
+.site-nav .link-item:hover,
+.site-nav .link-item:focus,
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
+}
+h1,
+h2,
+h3 {
+  color: var(--title-text-color);
+}
+.hero,
+footer {
+  background-color: #2f303a;
+}
+.hero-title,
+.adress {
+  color: #ffffff;
+}
+.button {
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+}
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color);
+}
+.comand {
+  background-color: #f5f4fa;
+}
+.contact {
+  color: var(--primary-text-color);
 }
