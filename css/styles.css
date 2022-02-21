@@ -17,19 +17,27 @@ body {
 
 /* header */
 
-.logotype {
+.header-logotype,
+.footer-logotype {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-
   letter-spacing: 0.03em;
+}
+.header-logotype {
+  color: #000000;
+}
+.footer-logotype {
+  color: #ffffff;
 }
 .logo {
   color: var(--accent-color);
 }
-.logotype:hover,
-.logotype:focus {
+.header-logotype:hover,
+.header-logotype:focus,
+.footer-logotype:hover,
+.footer-logotype:focus {
   color: var(--accent-color);
 }
 .link-item {
@@ -82,9 +90,16 @@ h3 {
 }
 .hero-button,
 .filter-button {
+  font-family: inherit;
   background-color: #f5f4fa;
   color: var(--title-text-color);
   cursor: pointer;
+}
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
 }
 .hero-button:hover,
 .hero-button:focus,
@@ -93,9 +108,60 @@ h3 {
   background-color: var(--accent-color);
   color: #ffffff;
 }
+.filter-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.filter-text {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.features-text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.work-title,
+.comand-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.comand-title-man {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.comand-text {
+  font-size: 16px;
+  line-height: 1.2px;
+  letter-spacing: 0.03em;
+}
+.adress {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
 .comand {
   background-color: #f5f4fa;
 }
 .contact {
   color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
